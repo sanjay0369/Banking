@@ -21,6 +21,7 @@ public class LoginPage
    {
 	   login_page.click();
 	   System.out.println("Login Successfully");
+	   System.out.println("clickOnLogin Method Executed");
    }
 }
 
