@@ -11,6 +11,8 @@ public class LoginPage
    public LoginPage (WebDriver driver)
    {
 	   PageFactory.initElements(driver, this);
+	   System.out.println("InitElement Method");
+	   
    }
    
    @FindBy (xpath = "(//a[@class='btn btn-color'])[1]")
@@ -18,5 +20,7 @@ public class LoginPage
    public void clickOnLogin ()
    {
 	   login_page.click();
+	   System.out.println("Login Successfully");
    }
 }
+
